@@ -12,7 +12,7 @@ public class book implements Serializable {
 	private enum STATE { AVAILABLE, ON_LOAN, DAMAGED, RESERVED };
 	private STATE State;
 	
-	
+	//Second change by 'recep' (2)
 	public book(String author, String title, String callNo, int id) {
 		this.AUTHOR = author;
 		this.TITLE = title;
