@@ -4,7 +4,7 @@ import java.io.Serializable;
 @SuppressWarnings("serial")
 public class book implements Serializable {
 	
-	private String TITLE;
+	private String TITLE; //First change by 'recep' (1)
 	private String AUTHOR;
 	private String CALLNO;
 	private int ID;
